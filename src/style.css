@@ -1,0 +1,26 @@
+.header-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../img/vancouver.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 50px 0 50px;
+}
+
+.h1-text {
+  color: white;
+  text-align: right;
+  padding: 100px 100px 0 100px;
+  margin: auto;
+}
+
+.h3-text {
+  color: white;
+  text-align: right;
+  padding: 0 100px 100px 100px;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+}
