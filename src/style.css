@@ -7,6 +7,17 @@
   }
 }
 
+@media (max-width: 768px) {
+  footer .footer-content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  main .why-van {
+    grid-template-columns: 1fr;
+  }
+}
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 10px;
@@ -56,6 +67,23 @@ body {
   font-weight: 400;
 }
 
+.why-van {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  padding: 30px 50px 30px 50px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.van-pic {
+  width: 100%;
+}
+
+.why-van-text h2 {
+  margin: 0;
+}
+
 footer {
   background-image: linear-gradient(rgba(45, 20, 0, 0.8), rgba(45, 20, 0, 0.8)),
     url("../img/vancouver2.jpg");
@@ -66,7 +94,7 @@ footer {
 
 .footer-content {
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
   padding: 50px 80px 50px 80px;
   gap: 50px;
   max-width: 1200px;
