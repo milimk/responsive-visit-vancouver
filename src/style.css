@@ -16,6 +16,10 @@
   main .why-van {
     grid-template-columns: 1fr;
   }
+
+  .favourite-container .card-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 body {
@@ -67,6 +71,18 @@ body {
   font-weight: 400;
 }
 
+h2 {
+  font-weight: 550;
+  opacity: 0.8;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 500;
+  opacity: 0.7;
+  margin: 0;
+}
+
 .why-van {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -84,10 +100,18 @@ body {
   margin: 0;
 }
 
+.favourite-container {
+  width: 100%;
+  background-color: blueviolet;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
 .favorites {
   padding: 30px 50px 30px 50px;
   max-width: 900px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .card-container {
@@ -99,10 +123,13 @@ body {
 .card {
   background-color: aqua;
   padding: 20px;
+  margin-top: 20px;
+  text-align: left;
 }
 
-.card p {
-  font-size: 14px;
+p {
+  font-size: 15px;
+  opacity: 0.7;
 }
 
 footer {
