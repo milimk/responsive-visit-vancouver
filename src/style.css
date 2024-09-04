@@ -84,6 +84,27 @@ body {
   margin: 0;
 }
 
+.favorites {
+  padding: 30px 50px 30px 50px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.card {
+  background-color: aqua;
+  padding: 20px;
+}
+
+.card p {
+  font-size: 14px;
+}
+
 footer {
   background-image: linear-gradient(rgba(45, 20, 0, 0.8), rgba(45, 20, 0, 0.8)),
     url("../img/vancouver2.jpg");
